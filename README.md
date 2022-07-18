@@ -1,12 +1,18 @@
-# surfs_up
+# **surfs_up**
 Analysis of Hawaii weather data for investment portfolio of a surf and ice cream shop.
+
+--------------------------------------
 
 ##**Overview**
 Analysis of Oahu, Hawaii island weather for potential investment in a surf and shake shop. Desired information included details of precipitation and temperature trends that would effect the buisness ability to open and therefore the business' profits. A flask app was developed to display this information(code available in app.py). Further, the weather in both June and December was analyze in depth to determine if the business would be able to remain open year-round. SQLite was used to reflect the data in the hawaii.sqlite file into a database, which was then queried and filtered for the desired paramaters, temperatures in June and December, respectively. This information was inputted into a database, and summary statistics were done to see the mean, minimum, maximum, and percentiles. 
 
+--------------------------------------
+
 ##**Resources**
--Data Source: hawaii.sqlite
+-Data Source: [hawaii.sqlite](https://github.com/shumph10/surfs_up/blob/main/hawaii.sqlite)
 -Software: Python 3.9.7, Jupyter Notebook 6.4.0, SQLite, Flask 2.1.2
+
+--------------------------------------
 
 ##**Results**
 - The average temperature for June in Oahu is 77.2 degrees Fahrenheit.
@@ -34,14 +40,18 @@ Analysis of Oahu, Hawaii island weather for potential investment in a surf and s
 
 ![precip_graph_screenshot](https://user-images.githubusercontent.com/100040705/168492784-fb4dc8e7-6e4f-4135-ad78-7ef5f7d50735.png)
 
+--------------------------------------
 
 ##**Summary**
-
 
 The summary statistics for both June and Decemeber show ideal temperatures on majority of days for surfing, thus the shop should be able to stay open year round. Based on these trends, there are minimal days in the coldest months the shop would close due to temperature conditions. The December summary statistics show the bottom 25th percentile being 69.0 degrees or lower, this shows there is not a major difference in the average and minimum, and there would be few days that the surf show would close for weather condititons. If the remained open any time the temperature was over 70.0 degrees, they would need to close on average 7 days in December. From the histogram of temperature frequency throughout the year, a conclusion can be drawn that the majority of the days temperature would not affect business in the shop. Overall, from the information gathered, the shop would need to close a small percentage of the time due to weather conditions.
 Further information should be collected for summaries of other months of concern, like January and February to calculate the total number of days the shop would be closed. This could be used in relation to potential profits per day in those months to predict total loss of revenue. 
 Additional queries could be performed to combine temperature and precipitation information to predict the number of days per year or month the shop may need to close. Information could be gathered through APIs to inquire about weather conditions such as cloudiness that could additionally affect the business.  
 
+--------------------------------------
 
+##**Contact Me**
 
+Email: sarahhumphrey2016@outlook.com </br>
+[LinkedIn](https://www.linkedin.com/in/sarah-humphrey-data-analyst/)
 
