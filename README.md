@@ -9,8 +9,9 @@ Analysis of Oahu, Hawaii island weather for potential investment in a surf and s
 --------------------------------------
 
 ##**Resources**
--Data Source: [hawaii.sqlite](https://github.com/shumph10/surfs_up/blob/main/hawaii.sqlite)
--Software: Python 3.9.7, Jupyter Notebook 6.4.0, SQLite, Flask 2.1.2
+
+- Data Source: [hawaii.sqlite](https://github.com/shumph10/surfs_up/blob/main/hawaii.sqlite) </br>
+- Software: Python 3.9.7, Jupyter Notebook 6.4.0, SQLite, Flask 2.1.2
 
 --------------------------------------
 
